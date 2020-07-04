@@ -19,7 +19,7 @@ O produto desenvolvido já está integrado com o corretor open-source [LanguageT
 | Parâmetro (GET/POST)  | Valores           |Descrição                         |
 |----------------|-------------------------------|-----------------------------|
 |service |`corretor (String)`            |'Define o serviço de correção ortográfica'            |
-|text          |`Texto a ser analisado (String)"`            |"A recomendação é que o texto seja enviado por sentenças. Se o texto for grande, então realizar múltiplas requisições (uma requisição por sentença)."            |
+|text          |`Texto a ser analisado (String)`            |'A recomendação é que o texto seja enviado por sentenças. Se o texto for grande, então realizar múltiplas requisições (uma requisição por sentença).'            |
 
 - Exemplo:
 	> http://IP_SERVIDOR:8080/?service=corretor&text=O+gata+toma+leite.
@@ -35,7 +35,7 @@ Uma inovação do Detector de Plágio utilizado nesta plataforma é oferecer res
 | Parâmetro (GET/POST)  | Valores           |Descrição                         |
 |----------------|-------------------------------|-----------------------------|
 |service |`plagio (String)`            |'Define o serviço de detecção de plágio'            |
-|text          |`Texto a ser analisado (String)"`            |"Enviar o texto completo ou parágrafos."            |
+|text          |`Texto a ser analisado (String)`            |'Enviar o texto completo ou parágrafos.'            |
 
 - Exemplo:
 	> http://IP_SERVIDOR:8080/?service=plagio&text=A+ideia+de+calcular+o+número+de+manchas+solares+se+origina+em+Rudolf+Wolf,+em+1848,+em+Zurique,+Suíça
@@ -48,8 +48,8 @@ Esse recurso é útil para estudantes e docentes verificarem a diferença semân
 | Parâmetro (GET/POST)  | Valores           |Descrição                         |
 |----------------|-------------------------------|-----------------------------|
 |service |`fuga_tema (String)`            |'Define o serviço de detecção de fuga de tema'            |
-|text          |`Texto a ser analisado (String)"`            |"Enviar o texto completo ou parágrafos."            |
-|reference          |`Texto de referência (String)"`            |"Enviar um gabarito (resposta modelo da questão)."            |
+|text          |`Texto a ser analisado (String)'`            |'Enviar o texto completo ou parágrafos.'            |
+|reference          |`Texto de referência (String)'`            |'Enviar um gabarito (resposta modelo da questão).'            |
 
 - Exemplo:
 	> http://IP_SERVIDOR:8080/?service=fuga_tema&text=A+ideia+de+calcular+o+número+de+manchas+solares+se+origina+em+Rudolf+Wolf,+em+1848,+em+Zurique,+Suíça&reference=O+número+de+Wolf+é+conhecido+como+número+internacional+de mancha+solar
