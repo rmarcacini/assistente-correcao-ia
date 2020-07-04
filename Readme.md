@@ -9,7 +9,7 @@ Esse módulo foi desenvolvido como parte do projeto PLATAFORMA DE GERENCIAMENTO 
 
 O módulo foi desenvolvido de forma a ser integrada a qualquer ambiente de apoio à ensino a distância, incluindo o Moodle.
 
-* Uma descrição de como instalar o módulo em um novo ambiente está disponível aqui.
+* Uma descrição de como instalar o módulo em um novo ambiente [está disponível aqui](assistente-correcao-questoes-modulo-ia.ipynb).
 * Uma descrição de como utilizar o módulo via API RESTful é apresentada a seguir.
 
 ## Assistente de Correção Ortográfica e Gramatical
