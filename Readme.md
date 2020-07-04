@@ -51,6 +51,6 @@ Esse recurso é útil para estudantes e docentes verificarem a diferença semân
 |text          |`Texto a ser analisado (String)"`            |"Enviar o texto completo ou parágrafos."            |
 |reference          |`Texto de referência (String)"`            |"Enviar um gabarito (resposta modelo da questão)."            |
 
-Exemplo:
+- Exemplo:
 	> http://IP_SERVIDOR:8080/?service=fuga_tema&text=A+ideia+de+calcular+o+número+de+manchas+solares+se+origina+em+Rudolf+Wolf,+em+1848,+em+Zurique,+Suíça&reference=O+número+de+Wolf+é+conhecido+como+número+internacional+de mancha+solar
 
